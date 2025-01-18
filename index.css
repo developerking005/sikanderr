@@ -19,6 +19,43 @@ body, html {
     background-size: cover;
 }
 
+.whatsapp-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: green;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 255, 0, 0.5);
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.whatsapp-btn i {
+    margin-right: 10px;
+    color: white;
+}
+
+.whatsapp-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.whatsapp-btn:hover {
+    background-color: white;
+    color: green;
+    box-shadow: 0 4px 20px rgba(0, 255, 0, 0.8);
+}
+
+.whatsapp-btn a:hover {
+    color: green;
+}
+
+
 .content {
     background: rgba(0, 0, 0, 0.6);
     padding: 20px;
